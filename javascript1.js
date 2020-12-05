@@ -1,4 +1,4 @@
-const rank = 2;
+const rank = 5;
 
 switch (rank) {
   case 1:
@@ -13,5 +13,7 @@ switch (rank) {
   case 3:
     console.log("銅メダルです！");
     break;
-  
+  default:
+    console.log("メダルはありません");
+    break;
 }
