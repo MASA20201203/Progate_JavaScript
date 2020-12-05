@@ -1,0 +1,20 @@
+{
+  "name": "Progate_JavaScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javascript1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MASA20201203/Progate_JavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MASA20201203/Progate_JavaScript/issues"
+  },
+  "homepage": "https://github.com/MASA20201203/Progate_JavaScript#readme"
+}
