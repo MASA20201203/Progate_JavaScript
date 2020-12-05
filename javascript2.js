@@ -1,16 +1,6 @@
-let number = 0;
+let number = 1;
 
-number += 1;
-console.log(number);
-
-number += 1;
-console.log(number);
-
-number += 1;
-console.log(number);
-
-number += 1;
-console.log(number);
-
-number += 1;
-console.log(number);
+while (number <= 100) {
+  console.log(number);
+  number += 1;
+}
