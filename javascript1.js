@@ -1,4 +1,8 @@
-let length = 5;
-console.log(length);
+let name = "にんじゃわんこ";
+console.log(name);
 
-console.log(length * length * 3);
+// 変数nameの値を"とりずきん"に更新してください
+name = "とりずきん";
+
+// 変数nameの値を出力してください
+console.log(name);
