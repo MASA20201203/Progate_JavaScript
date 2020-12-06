@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MASA20201203/Progate_JavaScript/issues"
   },
-  "homepage": "https://github.com/MASA20201203/Progate_JavaScript#readme"
+  "homepage": "https://github.com/MASA20201203/Progate_JavaScript#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }

@@ -1,4 +1,5 @@
-import Animal from "./javascript5_animal.mjs"
+import Animal from "./javascript5_animal.mjs";
+import chalk from "chalk";
 
 class Dog extends Animal {
   constructor(name, age, breed) {
