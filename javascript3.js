@@ -1,7 +1,6 @@
-const greet = function() {
+const hello = function() {
   console.log("こんにちは！");
-  console.log("関数を学習していきましょう！");
-};
+  console.log("私の名前は○○です");
+}
 
-// 関数を呼び出してください
-greet();
+hello();
