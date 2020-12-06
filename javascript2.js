@@ -1,6 +1,10 @@
-const character = {name:"にんじゃわんこ", age:14};
-console.log(character.name);
+const characters = [
+  { name: "にんじゃわんこ", age: 14 },
+  { name: "ひつじ仙人", age: 1000 },
+];
 
-character.age = 20;
+// charactersの1つ目の要素をコンソールに出力してください
+console.log(characters[0]);
 
-console.log(character);
+// charactersの2つ目の要素の「name」に対応する値をコンソールに出力してください
+console.log(characters[1].name);
