@@ -1,14 +1,19 @@
 const cafe = {
   name: "Progateカフェ",
-  businessHours: {
-    // businessHoursの値に指定されたオブジェクトを代入してください
+  businessHours: { 
     opening: "10:00(AM)",
     closing: "8:00(PM)"
   },
+  // menusプロパティに配列を代2入してください
+  menus: ["コーヒー", "紅茶", "チョコレートケーキ"]
 };
 
-// 「店名:〇〇」を出力してください
-console.log("店名:" + cafe.name);
+console.log(`店名: ${cafe.name}`);
+console.log(`営業時間:${cafe.businessHours.opening}から${cafe.businessHours.closing}`);
+console.log(`----------------------------`);
+console.log("おすすめメニューはこちら");
 
-// 「営業時間:〇〇から△△」を出力してください
-console.log("営業時間:" + cafe.businessHours.opening + "から" + cafe.businessHours.closing);
+// for文を用いて配列menusの中身を表示させてください
+for (let i = 0; i < cafe.menus.length; i ++) {
+  console.log(cafe.menus[i]);
+}
