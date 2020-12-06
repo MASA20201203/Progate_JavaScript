@@ -9,15 +9,17 @@ class Animal {
   }
   
   info() {
-    // greetメソッドを呼び出してください
     this.greet();
-    
     console.log(`名前は${this.name}です`);
     console.log(`${this.age}歳です`);
   }
 }
 
-const animal = new Animal("レオ", 3);
-// 以下の1行を消してください
+// Animalクラスを継承してDogクラスを定義してください
+class Dog extends Animal {
+  
+}
 
+
+const animal = new Animal("レオ", 3);
 animal.info();
