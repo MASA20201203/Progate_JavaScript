@@ -1,13 +1,21 @@
-// 定数nameを定義してください
-const name = "にんじゃわんこ";
+const number1 = 103;
+const number2 = 72;
+const number3 = 189;
 
-const introduce = (name) => {
-  // 「わたしは〇〇です」を出力してください
-  console.log(`わたしは${name}です`);
-};
+// getMax関数を定義してください
+const getMax = (a, b, c) => {
+  if (a > b) {
+    if (a > c) {
+      return a;
+    } else {
+      return c;
+    }
+  } else if (b > c) {
+    return b;
+  } else {
+    return c;
+  }
+}
 
-// 関数introduceを呼び出してください
-introduce("ひつじ仙人");
-
-// 定数nameの値を出力してください
-console.log(name);
+// 「最大値は○○です」と出力してください
+console.log(`最大値は${getMax(number1, number2, number3)}です`);
